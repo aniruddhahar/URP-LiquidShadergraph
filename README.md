@@ -4,9 +4,7 @@
 
 ### Demo Video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MI17dQDJTTU
-" target="_blank"><img src="http://img.youtube.com/vi/MI17dQDJTTU/0.jpg" 
-alt="Oculus Quest Liquids!" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=_Q3YGZFRv6s" target="_blank"><img src="http://img.youtube.com/vi/_Q3YGZFRv6s/0.jpg" alt="Oculus Quest Liquids!" width="240" height="180" border="10" /></a>
 
 The shadergraph uses no vertex manipulation, or compute shader magic. Instead the shadergraph utilises the Voronoi noise node to fake liquid surface ripples and foam. The liquid 'top' surface is faked by rendering backfaces with a flat color, and applying alpha clipping above an overall fill value. Animated bubbles and foam are then blended in. Several parameters are adjustable:
 1. Interaction: Whether the shader responds to object movement, which is detected via a provided script (MotionDetect.cs)
